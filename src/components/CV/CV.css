@@ -1,0 +1,43 @@
+h1 { position: absolute; top:0; left:0}
+
+input#show, input#hide {
+    display:none;
+}
+
+p#content {
+    display: block;
+    -webkit-transition: opacity 1s ease-out;
+    transition: opacity 1s ease-out;
+    opacity: 0; 
+    height: 0;
+    font-size: 0;
+    overflow: hidden;
+}
+
+input#show:checked ~ .show:before {
+    content: ""
+}
+input#show:checked ~ .hide:before {
+    content: "Hide"
+}
+
+input#hide:checked ~ .hide:before {
+    content: ""
+}
+input#hide:checked ~ .show:before {
+    content: "Show"
+}
+input#show:checked ~ span#content {
+    opacity: 1;
+    font-size: 100%;
+    height: auto;
+}
+input#hide:checked ~ span#content {
+    display: block;
+    -webkit-transition: opacity 1s ease-out;
+    transition: opacity 1s ease-out;
+    opacity: 0; 
+    height: 0;
+    font-size: 0;
+    overflow: hidden;
+}

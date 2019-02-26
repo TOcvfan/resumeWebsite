@@ -2,10 +2,18 @@
   "name": "mywebsite",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://christian.hammervig.dk/",
   "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.3.1",
+    "particles.js": "^2.0.0",
+    "popper.js": "^1.14.7",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
-    "react-scripts": "2.1.5"
+    "react-native": "^0.58.5",
+    "react-particles-js": "^2.4.2",
+    "react-scripts": "2.1.5",
+    "tachyons": "^4.11.1"
   },
   "scripts": {
     "start": "react-scripts start",
