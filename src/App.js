@@ -8,6 +8,7 @@ import Caravan from './components/Caravan/Caravan';
 import Register from './components/Register/Register';
 import Login from './components/Login/Login';
 import Navigation from './components/Navigation/Navigation';
+import Home from './components/Home/Home'
 import 'tachyons';
 import 'bootstrap';
 
@@ -50,7 +51,6 @@ const initialState = {
     {
         ageCurrent--;
     }
-    console.log(ageCurrent);
     return ageCurrent;
 
   }
@@ -96,7 +96,7 @@ class App extends Component {
        ? <Cv />
        :( 
         route === 'application'
-        ? <Application age={() => age("1979 10 27")}/>
+        ? <Application age={age('1979 10 27')}/>
         : (
           route === 'car'        
           ?<Car /> 
@@ -106,8 +106,11 @@ class App extends Component {
        :(
         route === 'signin'        
         ? <Login loadUser={this.loadUser} onRouteChange={this.onRouteChange}/>
-        : <Register loadUser={this.loadUser} onRouteChange={this.onRouteChange}/>
-       )
+        : (
+          route === 'register'
+          ?<Register loadUser={this.loadUser} onRouteChange={this.onRouteChange}/>
+          :<Home loadUser={this.loadUser} age={age('1979 10 27')}/>
+       ))
        )
       )
        )       

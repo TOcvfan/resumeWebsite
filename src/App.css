@@ -10,3 +10,16 @@
   bottom: 0;
   z-index: -1;
 }
+
+img {
+	width: 200px;
+	height: auto;
+	margin: 10px;
+	
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

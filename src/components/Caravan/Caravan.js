@@ -12,25 +12,12 @@ import otte from './296407_2540388913134_916656901_n.jpg';
 
 const Caravan = () => {
   return (
-    <div>
-     <div className="py-5 gradient-overlay text-center bg-secondary">
-    <div className="container">
-      <div className="row">
-        <div className="col-md-12">
-          <div className="row">
-            <div className="col-md-12">
-              <h1 className="text-light">Billeder a min Campingvogn</h1>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+    
   <div className="py-5 text-center bg-primary">
     <div className="container">
         <div className="row">
         <div className="col-md-12">
-          <h1 className="pb-3 text-white">Min Campingvogn</h1>
+          <h1 className="pb-3 text-white text-center">Min Campingvogn</h1>
         </div>
       </div>
       <div className="row" id="thumbnails">
@@ -69,7 +56,7 @@ const Caravan = () => {
       </div>
     </div>
   </div>
-  </div>
+  
   );
 }
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import './Application.css';
 
 
 const Application = ({ age }) => {
@@ -20,8 +21,8 @@ const Application = ({ age }) => {
         <div className="py-5 bg-primary text-white">
           <div className="container">
             <div className="row">
-              <div className="col-md-12">
-                <h1 className="pb-3 text-white">Er du fra en virksomhed der søger en stabil medarbejder?
+              <div className="col-md-8">
+                <br/><h1 className="pb-3 text-white">Er du fra en virksomhed der søger en stabil medarbejder?
             <br/>Så kig her!</h1>
               </div>
             </div>
