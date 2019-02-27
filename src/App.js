@@ -92,30 +92,30 @@ class App extends Component {
               params={particlesOpt}
             />
       <Navigation isSignedIn={isSignedIn} onRouteChange={this.onRouteChange}/>
-      { route === 'cv'
-       ? <Cv />
-       :( 
-        route === 'application'
-        ? <Application age={age('1979 10 27')}/>
-        : (
-          route === 'car'        
-          ?<Car /> 
-       :(
-        route === 'caravan'        
-       ?<Caravan />
-       :(
-        route === 'signin'        
-        ? <Login loadUser={this.loadUser} onRouteChange={this.onRouteChange}/>
-        : (
-          route === 'register'
-          ?<Register loadUser={this.loadUser} onRouteChange={this.onRouteChange}/>
-          :<Home loadUser={this.loadUser} age={age('1979 10 27')}/>
-       ))
-       )
-      )
-       )       
-      }
-            {/*<birthday />*/}
+      { (route === 'cv') &&
+       <Cv />}
+        
+       { (route === 'application') &&
+               <Application age={age('1979 10 27')}/>
+              }
+         { (route === 'car') &&        
+                <Car /> }
+       {(route === 'caravan') &&        
+              <Caravan />}
+       {(route === 'signin') &&        
+              <Login loadUser={this.loadUser} onRouteChange={this.onRouteChange}/>
+              }
+        {(route === 'register') &&
+               <Register loadUser={this.loadUser} onRouteChange={this.onRouteChange}/>}
+       { (route === 'home') &&
+              <Home loadUser={this.loadUser} onRouteChange={this.onRouteChange} age={age('1979 10 27')}/>}
+       
+       {(route === 'signout') &&        
+              <Login loadUser={this.loadUser} onRouteChange={this.onRouteChange}/>}
+      
+             
+      
+            
       </div>
     );
   }
