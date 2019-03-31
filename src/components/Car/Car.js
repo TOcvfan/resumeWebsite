@@ -1,5 +1,4 @@
 import React from 'react';
-import './Car.css';
 import nul from './bil.jpg';
 import et from './samlet.png';
 import to from './Roadtrip-070715-243-1.jpg';
@@ -16,63 +15,59 @@ import elve from './404559_2947626733825_1488252122_n.jpg';
 const Car = () => {
   return (
     <div>
-     <div className="py-5 text-center bg-primary">
-      <div className="container">
-        <div className="row">
-        <div className="col-md-12">
-          <h1 className="pb-3 text-white center">Min bil</h1>
+      <div className="container-text">
+          <h1>Min bil</h1>
         </div>
-      </div>
-      <div className="row" id="thumbnails">
-        <div className="col-md-3 col-6 p-1 clearfix">
-                <img className="d-block img-fluid" src={nul} alt=""/>
+    <div className="container">
+      <div>
+        <div>
+          <img className="img-fluid" src={nul} alt=""/>
         </div>
         
-        <div className="col-md-3 col-6 p-1 clearfix">
-            <img className="d-block img-fluid" src={et} alt=""/>
+        <div>
+            <img className="img-fluid" src={et} alt=""/>
         </div>
-        <div className="col-md-3 col-6 p-1 clearfix">
-            <img className="d-block img-fluid" src={to} alt=""/>
+        <div>
+            <img className="img-fluid" src={to} alt=""/>
         </div>
       </div>
-      <div className="row" id="thumbnails">
+      <div>
         
-        <div className="col-md-3 col-6 p-1 clearfix">
-            <img className="d-block img-fluid" src={tre} alt=""/>
+        <div>
+            <img className="img-fluid" src={tre} alt=""/>
         </div>
-        <div className="col-md-3 col-6 p-1 clearfix">
-            <img className="d-block img-fluid" src={fire} alt=""/>
+        <div>
+            <img className="img-fluid" src={fire} alt=""/>
         </div>
-        <div className="col-md-3 col-6 p-1 clearfix">
-            <img className="d-block img-fluid" src={fem} alt=""/> 
+        <div>
+            <img className="img-fluid" src={fem} alt=""/> 
         </div>
       </div>
-      <div className="row" id="thumbnails">
-        <div className="col-md-3 col-6 p-1 clearfix">
-            <img className="d-block img-fluid" src={seks} alt=""/>
+      <div>
+        <div>
+            <img className="img-fluid" src={seks} alt=""/>
         </div>
-        <div className="col-md-3 col-6 p-1 clearfix">
-            <img className="d-block img-fluid" src={syv} alt=""/>
+        <div>
+            <img className="img-fluid" src={syv} alt=""/>
         </div>
-        <div className="col-md-3 col-6 p-1 clearfix">
-            <img className="d-block img-fluid" src={otte} alt=""/> 
+        <div>
+            <img className="img-fluid" src={otte} alt=""/> 
         </div>
         
       </div>
-      <div className="row" id="thumbnails">
+      <div>
         
-        <div className="col-md-3 col-6 p-1 clearfix">
-            <img className="d-block img-fluid" src={ni} alt=""/> 
+        <div>
+            <img className="img-fluid" src={ni} alt=""/> 
         </div>
-        <div className="col-md-3 col-6 p-1 clearfix">
-            <img className="d-block img-fluid" src={ti} alt=""/> 
+        <div>
+            <img className="img-fluid" src={ti} alt=""/> 
         </div>
-        <div className="col-md-3 col-6 p-1 clearfix">
-            <img className="d-block img-fluid" src={elve} alt=""/> 
+        <div>
+            <img className="img-fluid" src={elve} alt=""/> 
         </div>
       </div>
     </div>
-   </div>
   </div>
   );
 }

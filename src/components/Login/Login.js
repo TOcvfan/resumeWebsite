@@ -20,7 +20,7 @@ class Login extends React.Component {
 	}
 
 	onSubmitSignIn = () => {
-		fetch('http://localhost:3000/signin', {
+		fetch('https://nameless-ocean-57332.herokuapp.com/signin', {
 			method: 'post',
 			headers: {'Content-Type': 'application/json'},
 			body: JSON.stringify({
@@ -40,14 +40,14 @@ class Login extends React.Component {
 
 	render(){
 		return (
-		<article className="br3 shadow-5 ba b--black-10 mv4 w-100 w-50-m w-25-l mw6 center">
+		<article className="br3 shadow-5 ba b--black-10 mv4 w-100 w-50-m w-25-l mw6 center container">
 			<div className="w-80 w-70-m w-100-l fr">
 				<header className="pa1 bb b--light-gray relative center">
-					<h1 className="b ma0 f1 center">Sign In</h1>
+					<h1 className="b ma0 f1 center container">Sign In</h1>
 					</header>
 						<div id="Signin-form" action="" className="ph1 pt3 pb4 f7">
 							<div className="mb3">
-								<label htmlFor="" className="db ttu b lh-copy">Email</label>
+								<label htmlFor="" className="db ttu b lh-copy container">Email</label>
 								<input 
 									name="email" 
 									type="email" 
@@ -56,7 +56,7 @@ class Login extends React.Component {
 									/>
 							</div>
 							<div className="mb4">
-								<label htmlFor="" className="db ttu b lh-copy">Password</label>
+								<label htmlFor="" className="db ttu b lh-copy container">Password</label>
 								<input 
 									name="password" 
 									type="password" 

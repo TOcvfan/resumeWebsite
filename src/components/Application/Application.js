@@ -1,32 +1,16 @@
 import React from 'react';
-import './Application.css';
-
 
 const Application = ({ age }) => {
   return (
-    <div className='ma4 mt0'>
-      <div className="py-5 gradient-overlay text-center bg-secondary">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-12">
-                <div className="row">
-                  <div className="col-md-12">
-                    <h1 className="text-light">Om mig</h1>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="py-5 bg-primary text-white">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-8">
-                <br/><h1 className="pb-3 text-white">Er du fra en virksomhed der søger en stabil medarbejder?
+    <div className=''>
+      <div className="container-text">
+                    <h1 className="">Om mig</h1>
+      </div>
+            <div className="overskrift">
+                <h1 className="">Er du fra en virksomhed der søger en stabil medarbejder?
             <br/>Så kig her!</h1>
-              </div>
             </div>
-            <div>
+            <div className="text">
               <div>Jeg været igennem uddannelsen som Datamatiker.
           <br/>Jeg kan tilbyde kompetencer inden for
             <ul>
@@ -52,10 +36,7 @@ const Application = ({ age }) => {
               <br/>
               <br/>Hvis i har spørgsmål til mig inden samtalen så skriv endelig.
               <br/>Jeg glæder mig til at høre fra jer.</div>
-              
             </div>
-          </div>
-        </div>
     </div>
   );
 }

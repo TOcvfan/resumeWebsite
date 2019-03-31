@@ -37,7 +37,7 @@ const initialState = {
         entries: 0,
         joined: '',
         age: '',
-        contact: '',
+        //contact: '',
         gender: ''
       }
     }
@@ -69,7 +69,7 @@ class App extends Component {
       entries: data.entries,
       joined: data.joined,
       age: data.age,
-      contact: data.contact,
+      //contact: data.contact,
       gender: data.gender
     }})
   }
@@ -92,13 +92,12 @@ class App extends Component {
               params={particlesOpt}
             />
       <Navigation isSignedIn={isSignedIn} onRouteChange={this.onRouteChange}/>
-      { (route === 'cv') &&
-       <Cv />}
+       { (route === 'cv') &&
+          <Cv />}
         
        { (route === 'application') &&
-               <Application age={age('1979 10 27')}/>
-              }
-         { (route === 'car') &&        
+               <Application age={age('1979 10 27')}/>}
+       { (route === 'car') &&        
                 <Car /> }
        {(route === 'caravan') &&        
               <Caravan />}
@@ -113,9 +112,6 @@ class App extends Component {
        {(route === 'signout') &&        
               <Login loadUser={this.loadUser} onRouteChange={this.onRouteChange}/>}
       
-             
-      
-            
       </div>
     );
   }

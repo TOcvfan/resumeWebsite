@@ -1,5 +1,4 @@
 import React from 'react';
-import './Caravan.css';
 import nul from './trailer.jpg';
 import et from './DSCN0034.JPG';
 import to from './BILD0254.JPG';
@@ -13,45 +12,46 @@ import otte from './296407_2540388913134_916656901_n.jpg';
 const Caravan = () => {
   return (
     
-  <div className="py-5 text-center bg-primary">
-    <div className="container">
-        <div className="row">
-        <div className="col-md-12">
-          <h1 className="pb-3 text-white text-center">Min Campingvogn</h1>
-        </div>
-      </div>
-      <div className="row" id="thumbnails">
-        <div className="col-md-3 col-6 p-1 clearfix">
-                <img className="d-block img-fluid" src={nul} alt=""/>
-        </div>
-        <div className="col-md-3 col-6 p-1 clearfix">
-            <img className="d-block img-fluid" src={et} alt=""/>
-        </div>
-        <div className="col-md-3 col-6 p-1 clearfix">
-            <img className="d-block img-fluid" src={to} alt=""/>
-        </div>
-      </div>
-      <div className="row" id="thumbnails">
+  <div>
+    <div>
         
-        <div className="col-md-3 col-6 p-1 clearfix">
-            <img className="d-block img-fluid" src={tre} alt=""/>
+        <div className="container-text">
+          <h1>Min Campingvogn</h1>
         </div>
-        <div className="col-md-3 col-6 p-1 clearfix">
-            <img className="d-block img-fluid" src={fire} alt=""/>
+      <div className="container">
+      <div>
+        <div>
+            <img className="img-fluid" src={nul} alt=""/>
         </div>
-        <div className="col-md-3 col-6 p-1 clearfix">
-            <img className="d-block img-fluid" src={fem} alt=""/>
+        <div>
+            <img className="img-fluid" src={et} alt=""/>
+        </div>
+        <div>
+            <img className="img-fluid" src={to} alt=""/>
         </div>
       </div>
-      <div className="row" id="thumbnails">
-        <div className="col-md-3 col-6 p-1 clearfix">
-            <img className="d-block img-fluid" src={seks} alt=""/>
+      <div>
+        
+        <div>
+            <img className="img-fluid" src={tre} alt=""/>
+        </div>
+        <div>
+            <img className="img-fluid" src={fire} alt=""/>
+        </div>
+        <div>
+            <img className="img-fluid" src={fem} alt=""/>
+        </div>
       </div>
-          <div className="col-md-3 col-6 p-1 clearfix">
-            <img className="d-block img-fluid" src={syv} alt=""/>
+      <div>
+        <div>
+            <img className="img-fluid" src={seks} alt=""/>
       </div>
-          <div className="col-md-3 col-6 p-1 clearfix">
-            <img className="d-block img-fluid" src={otte} alt=""/>
+          <div>
+            <img className="img-fluid" src={syv} alt=""/>
+      </div>
+          <div>
+            <img className="img-fluid" src={otte} alt=""/>
+      </div>
       </div>
       </div>
     </div>
