@@ -16,7 +16,7 @@ const Home = ({ age }) => {
             <div className="billederamme">
               <h1 className="overskift">Om mig</h1>
               <img className="size" src={nul} alt=""/>
-              <p className="text">Jeg er halvt spanier og bor på stevns for tiden.
+              <p className="text">Jeg er halvt spanier og jeg bor i Strandby ved Farsø i eget hus.
                 <br/>Jeg er <em id="age">{age}</em> år og har ikke nogen børn og aldrig været gift, men det forsøger jeg dog at lave om på.&nbsp;</p>
             </div>
             <div className="billederamme">
