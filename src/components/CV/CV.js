@@ -60,7 +60,8 @@ const CV = () => {
 		              <p id="Uddannelser" className="text">2014 – 2017 Datamatiker (mgl. hovedopgave)
 		                <br/>2004 – 2008 Automekaniker
 		                <br/>2001 – 2002 Handelsskolens grunduddannelse
-		                <br/>1998 – 2001 Mærsk Skibsfører uddannelse (ikke afsluttet)</p>
+		                <br/>1998 – 2001 Mærsk Skibsfører uddannelse (ikke afsluttet)
+						<br/>1997 – 1997 Skoleskibet Danmark </p>
 		            </div>
 		          </div>
 		          <div>
@@ -79,11 +80,10 @@ const CV = () => {
 		            <div>
 		              <h4 id="toggleErhvervserfaring">Erhvervserfaring</h4>
 		              <p id="Erhvervserfaring" className="text">Mar. 2018 - Okt. 2018 ICO PAL (lagermedarbejder)
-		                <br/>Aug. 2016 – jan. 2017 cBrain (6 mdr. praktik via uddannelsen)
+		                <br/>2016 – 2017 cBrain (6 mdr. praktik via uddannelsen)
 		                <br/>App udvikling/ Selvbetjening værktøj til kommunerne
 		                <br/>Webservice/ Analyseværktøj til SKAT’s program F2
-		                <br/>Jun. 2009 – Okt. 2009 Lastbilchauffør
-		                <br/>Jun. 1997 – Dec. 1997 Skoleskibet Danmark </p>
+		                <br/>2009 – 2009 Lastbilchauffør</p>
 		            </div>
 		          </div>
 		          <div>

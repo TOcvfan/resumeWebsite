@@ -2,20 +2,25 @@
   "name": "mywebsite",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://christian.hammervig.dk/",
+  "homepage": "https://christian.hammervig.dk/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "jquery": "^3.3.1",
     "particles.js": "^2.0.0",
-    "popper.js": "^1.14.7",
-    "react": "^16.8.3",
-    "react-dom": "^16.8.3",
+    "popper.js": "^1.15.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "react-dropdown": "^1.6.4",
-    "react-native": "^0.59.2",
-    "react-particles-js": "^2.4.2",
+    "react-inputs-validation": "^2.2.0",
+    "react-material-ui-form-validator": "^2.0.7",
+    "react-native": "^0.59.4",
+    "react-particles-js": "^2.5.1",
+    "react-radio-buttons": "^1.2.2",
+    "react-radio-group": "^3.0.3",
     "react-scripts": "^2.1.8",
     "reactjs-input-validator": "^0.16.4",
-    "tachyons": "^4.11.1"
+    "tachyons": "^4.11.1",
+    "validator": "^10.11.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -31,5 +36,16 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TOcvfan/resumeWebsite.git"
+  },
+  "author": "Christian Hammervig",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TOcvfan/resumeWebsite/issues"
+  }
 }

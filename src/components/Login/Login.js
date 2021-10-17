@@ -33,6 +33,23 @@ class Login extends React.Component {
 		 if (user.id) {
 		 	this.props.loadUser(user)
 			this.props.onRouteChange('home');
+		}else if ('wrong credentials'){
+			var message;
+			
+  			message = document.getElementById("p01");
+  			
+  			message.innerHTML = "";
+  			
+    		message.innerHTML = "Input is wrong";
+ 			
+		}else if ('incorrect form submission'){
+			
+  			message = document.getElementById("p01");
+  			
+  			message.innerHTML = "";
+  			
+   			message.innerHTML = "Input is empty";
+			
 		}
 	  })
 
@@ -50,16 +67,19 @@ class Login extends React.Component {
 								<label htmlFor="" className="db ttu b lh-copy container">Email</label>
 								<input 
 									name="email" 
-									type="email" 
+									type="email"
+									id="email" 
 									className="input-reset w-100 mw-100 bn br1 pa2 bg-light-gray"
 									onChange={this.onEmailChange} 
 									/>
+								<label id="p01" style={{color: 'red'}}></label>
 							</div>
 							<div className="mb4">
 								<label htmlFor="" className="db ttu b lh-copy container">Password</label>
 								<input 
 									name="password" 
-									type="password" 
+									type="password"
+									id="password" 
 									className="input-reset w-100 mw-100 bn br1 pa2 bg-light-gray" 
 									onChange={this.onPasswordChange}
 								/>
